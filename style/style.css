@@ -1,0 +1,94 @@
+@charset "utf-8"
+
+body { 
+	font-family: 'Scheherazade New', serif;
+	
+
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#nav {
+	background: black;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+
+}
+
+#nav h1{
+	float: left;
+
+}
+
+#nav h1 a{
+	text-decoration: none;
+	color: white;
+	margin-left: 25px;
+	font-family: 'Italianno', cursive;
+}
+
+#nav ul{
+	float: right;
+}
+
+#nav ul li{
+	text-decoration: none;
+	list-style-type: none;
+	display: inline-block
+}
+
+
+#nav ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 25px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+
+#nav ul li: hover{
+	background: #a7ad8d;
+	transition: all ease-in-out 0.40s;
+}
+
+
+#hello {
+	background: #a7ad8d;
+	
+}
+
+#hello1 {
+	background: #a7ad8d;
+	height: 5px;
+}
+
+
+#hello2 {
+	background: url(../images/wood.jpg) no-repeat;
+	width: 100%;
+	height: 800px;
+
+
+}
+
+section{
+	overflow: auto;
+	height: 100%;
+
+}
+
+main {
+	padding: 10px;
+	margin: 10px;
+}
+
+article {
+	padding: 10px;
+	margin: 10px;
+}
